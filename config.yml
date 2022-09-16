@@ -1,6 +1,6 @@
-baseURL: https://www.sulvblog.cn # 绑定的域名
+baseURL: https://zhongyi-byte.github.io # 绑定的域名
 languageCode: zh-cn # en-us
-title: Sulv's Blog
+title: Zyi's Blog
 theme: hugo-PaperMod  # 主题名字，和themes文件夹下的一致
 
 enableInlineShortcodes: true
@@ -115,11 +115,9 @@ params:
     comments: true
     socialIcons:
         - name: github
-          url: "https://github.com/xyming108"
+          url: "https://github.com/zhongyi-byte"
         - name: twitter
           url:  "img/twitter.png"
-        - name: facebook
-          url: "https://www.facebook.com/profile.php?id=100027782410997"
         - name: instagram
           url: "img/instagram.png"
         - name: QQ
@@ -134,7 +132,7 @@ params:
           url: "index.xml"
 
     label:
-        text: "Sulv's Blog"
+        text: "Zyi's Blog"
         icon: "img/Q.gif"
         iconHeight: 35
 
@@ -172,7 +170,7 @@ params:
 
     # twikoo评论
     twikoo:
-      version: 1.5.8
+      version: 1.6.7
       id:  # 填写自己的twikoo id
       region:  # 环境地域，默认为 ap-shanghai，如果您的环境地域不是上海，需传此参数，请看twikoo官方文档
 

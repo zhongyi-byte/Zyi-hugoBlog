@@ -2,7 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 lastmod: {{ .Date }}
-author: ["Sulv"]
+author: ["Zyi"]
 keywords: 
 - 
 categories: 
