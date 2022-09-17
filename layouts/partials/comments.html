@@ -13,27 +13,21 @@
 
     <div id="tcomment"></div>
 
-    <script src="https://cdn.staticfile.org/twikoo/{{ .Site.Params.twikoo.version }}/twikoo.all.min.js">
-    </script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js"></script> -->
-
-    <!-- <script>window.TWIKOO_MAGIC_PATH="共用评论区的名称"</script> -->
-
-    <script>
-        twikoo.init({
-            envId: "http://127.0.0.1:8090", //填自己的
-            el: "#tcomment",
-            lang: 'zh-CN',
-            region: 'ap-shanghai',
-            path: window.TWIKOO_MAGIC_PATH||window.location.pathname,
-            // onCommentLoaded: function () {
-            //     $(".tk-content img:not(.tk-avatar-img)").each(function () {
-            //         var _b = $("<a></a>").attr("href", this.src);
-            //         $(this).wrap(_b);
-            //     })
-            //     $(".tk-content a[rel!=link]:has(img)").slimbox();
-            // }
-        });
-    </script>
+    <script src="https://giscus.app/client.js"
+        data-repo="zhongyi-byte/Zyi-hugoBlog"
+        data-repo-id="R_kgDOIAW3Og"
+        data-category="General"
+        data-category-id="DIC_kwDOIAW3Os4CReNh"
+        data-mapping="url"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
 
 </div>
